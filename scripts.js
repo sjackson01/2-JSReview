@@ -13,3 +13,13 @@ alert("Thanks for visiting.");
 
 //Add string to log
 console.log("Program complete");
+
+*/
+
+//Capture user input and store in a return value 
+var visitorName = prompt('What is your name?');
+
+//Add output to alert
+alert(visitorName); 
+
+
