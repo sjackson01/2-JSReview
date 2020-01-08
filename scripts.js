@@ -22,4 +22,13 @@ var visitorName = prompt('What is your name?');
 //Add output to alert
 alert(visitorName); 
 
+*/
 
+//Prompt visitor to enter their name and assign value to visitor
+var visitor = prompt('What is your name?');
+//Concatenate visitor and Hello 
+var message = 'Hello ' + visitor;
+//Complete string 
+message += " ,we are very glad that you came to visit";
+//Print combined message 
+document.write(message);
