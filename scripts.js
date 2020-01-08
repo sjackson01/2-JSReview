@@ -32,3 +32,22 @@ var message = 'Hello ' + visitor;
 message += " ,we are very glad that you came to visit";
 //Print combined message 
 document.write(message);
+
+//Access object.property "passphrase.length"
+var passphrase ='Open Sesame';
+document.write(passphrase.length);
+
+//Convert string to lower case
+document.write(passphrase.toLowerCase());
+
+*/
+
+//Simple shout app 
+//Prompt user and assign input to stringToShout
+var stringToShout = prompt("What should I shout");
+//Convert stringToShout to uppercase and assign to var shout
+var shout = stringToShout.toUpperCase();
+//Concatenate shout
+shout += "!!!";
+//Return shout alert 
+alert(shout);
