@@ -1,6 +1,9 @@
 
+//Add variable
+var messageAlert = "Var Message!";
+
 //Add alert 
-alert("Hello from TreeHouse."); 
+alert(messageAlert); 
 
 //Current webpage and write command
 document.write("<h1>Welcome to JavaScript Basics</h1>");
