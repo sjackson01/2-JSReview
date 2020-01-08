@@ -54,6 +54,7 @@ p {
 }
 
 .container {
+  font-size: medium;
   box-sizing: border-box;
   width: 90%;
   max-width: 1080px;
