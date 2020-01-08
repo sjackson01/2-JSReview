@@ -51,3 +51,11 @@ var shout = stringToShout.toUpperCase();
 shout += "!!!";
 //Return shout alert 
 alert(shout);
+
+*/
+
+var firstQuestion = prompt("Enter an adjective!");
+
+var firstAnswer = "The soup is too " + firstQuestion + "!"; 
+
+document.write(firstAnswer);
