@@ -2,6 +2,10 @@
 /* JS Review Numbers */
 /* Comment out code to manipulate */ 
 
+/*
+
+// INTRO
+
 //Calculate how many seconds are in a day
 var secondsPerMin = 60;
 var minsPerHour = 60;
@@ -12,6 +16,8 @@ var weeksPerYear = 52;
 var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
 
 document.write('There are ' + secondsPerDay + ' per in a day.');
+
+// CONVERSIONS 
 
 //Convert string values to int values 
 var HTMLBadges = prompt('How many HTML badges do you have?');
@@ -26,7 +32,7 @@ var total = parseFloat(string1) + parseFloat(string2);
 
 document.write(total);
 
-*/ 
+// COUNTERS
 
 //Insert numbers into strings using the plus operator 
 var questions = 3;
@@ -49,3 +55,6 @@ var sentence = "<h2>There once was a " + ajective;
 sentence += ' programmer who wanted to use JavaScript to ' + verb;
 sentence += ' the ' + noun + '.</h2>';
 document.write(sentence);
+
+*/ 
+
