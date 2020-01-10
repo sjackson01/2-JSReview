@@ -1,7 +1,7 @@
-/* JS Review */
+/* JS Review Strings */
 /* Comment out code to manipulate */ 
 
-
+/*
 
 //Add variable
 var messageAlert = "Var Message!";
@@ -54,3 +54,6 @@ alert(shout);
 var firstQuestion = prompt("Enter an adjective!");
 var firstAnswer = "The soup is too " + firstQuestion + "!"; 
 document.write(firstAnswer);
+
+*/ 
+
