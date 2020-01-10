@@ -56,5 +56,43 @@ sentence += ' programmer who wanted to use JavaScript to ' + verb;
 sentence += ' the ' + noun + '.</h2>';
 document.write(sentence);
 
-*/ 
 
+
+// MATH OBJECT
+
+//Use built in math object methods
+document.write(Math.round());
+
+//Return random number between 0 - 1
+document.write(Math.random());
+
+//Convert Math.random to int rounded down
+document.write(Math.floor(Math.random() * 6));
+
+//Create random die roll 
+var dieRoll = Math.floor(Math.random() * 6) +1;
+document.write(dieRoll);
+
+*/
+
+// RANDOM NUMBER BETWEEN TWO NUMBERS GENERATOR
+
+//Collect lower number
+var input1 = prompt("Please type a starting number");
+//Convert string to int 
+var bottomNumber = parseInt(input1);
+
+//Collect upper number
+var input = prompt("Please type a number");
+//Convert string input into int
+var topNumber = parseInt(input);
+
+//Generate randome number based on the upper/lower limit 
+var randomNumber = Math.floor(Math.random() * (topNumber - bottomNumber + 1)) + bottomNumber;
+//Generate text output with randomNumber and topNumber
+var message = "<p>" 
++ randomNumber + " is a number between " 
++ bottomNumber + " and " 
++ topNumber + ".</p>";
+//Write document
+document.write(message);
