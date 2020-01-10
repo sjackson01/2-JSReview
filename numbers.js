@@ -73,8 +73,6 @@ document.write(Math.floor(Math.random() * 6));
 var dieRoll = Math.floor(Math.random() * 6) +1;
 document.write(dieRoll);
 
-*/
-
 // RANDOM NUMBER BETWEEN TWO NUMBERS GENERATOR
 
 //Collect lower number
@@ -96,3 +94,5 @@ var message = "<p>"
 + topNumber + ".</p>";
 //Write document
 document.write(message);
+
+*/
