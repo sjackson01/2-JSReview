@@ -17,23 +17,35 @@
 */
 
 //Random Number Guessing Game
+//Defualt guess false 
 var correctGuess = false;
+
+//Generate randome number
 var randomNumber = Math.floor(Math.random() * 6) +1;
+
+//Promt user to guess a number between 1 - 6
 var guess = prompt('I am thinkng of a number between 1 and 6. What is it?');
+
 //Convert string received from prompt into int
+//Check if guess is less/greater than random number
 if(parseInt(guess) === randomNumber){
 correctGuess = true; 
-}
-if(correctGuess === true){
-    document.write('<p> you guess the number!</p>');
-}else{
-    document.write('<p>Sorry, the number was ' + randomNumber + '.</p>');
-}
+    }else if(parseInt(guess) < randomNumber ) {
+        var guessMore = prompt('Try again, the number is higher than ' + guess);
+        if(parseInt(guessMore) === randomNumber){
+            correctGuess = true; 
+        }
+    }else if( parseInt(guess) > randomNumber) {
+        var guessLess = prompt('Try again, the number is lower than ' + guess);
+        if(parseInt(guessLess) === randomNumber){
+            correctGuess = true;
+        }
+    }
 
-//Boolean value review 
-//All conditions return a true and false value
-if(true){
-    document.write('The condition is true');
-}else{
-    document.write('The condition is false');
-}
+ //Display answer    
+if(correctGuess === true){
+    document.write('<p>You guessed the number!</p>');
+    }else{
+        document.write('<p>Sorry, the number was ' + randomNumber + '.</p>');
+    }
+
