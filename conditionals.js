@@ -11,3 +11,14 @@
     }else{
     document.write('<p>That\'s wrong!'); 
 }
+*/ 
+
+//Random Number Guessing Game
+var randomNumber = Math.floor(Math.random() * 6) +1;
+var guess = prompt('I am thinkng of a number between 1 and 6. What is it?');
+//Convert string received from prompt into int
+if(parseInt(guess) === randomNumber){
+document.write('<p>You guessed the number!</p>');
+}else{
+    document.write('<p>Sorry, the number was ' + randomNumber + '</p>');
+}
