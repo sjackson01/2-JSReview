@@ -14,8 +14,7 @@
     document.write('<p>That\'s wrong!'); 
 }
 
-*/
-
+s
 //Random Number Guessing Game
 //Defualt guess false 
 var correctGuess = false;
@@ -49,7 +48,6 @@ if(correctGuess === true){
         document.write('<p>Sorry, the number was ' + randomNumber + '.</p>');
     }
 
-*/
 
 //Comparison Operators (both and &&) (one or ||)
 //Quiz Exercise
@@ -105,3 +103,5 @@ if(correct === 5){
 }else{
     document.write("<p><strong>You didn't earn any prizes</strong></p>");
 }
+
+*/
