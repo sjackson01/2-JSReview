@@ -38,3 +38,17 @@ function getArea(width, length, unit){
 
 document.write(getArea(10,20, 'sq ft'));
 
+*/
+
+//Generate number between two values
+function getRandomNumber(lower, upper){
+    if(isNaN(lower) || isNaN(upper)) {
+        throw new Error('One of the values is not a number');
+    }else{
+        return Math.floor(Math.random() * (upper - lower + 1)) + lower;
+    }
+}
+
+console.log(getRandomNumber(1, 100));
+
+alert(getRandomNumber(nine, 6));
